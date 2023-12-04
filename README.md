@@ -24,7 +24,7 @@ A aplicação é baseada no Spring Boot. Faz uso do MongoDB como banco de dados 
 Durante o registro e alteração dos dados do cliente, a aplicação realiza consultas de CEP a API externa, enriquecendo o projeto com uma abordagem mais próxima da realidade. Adicionalmente, a validação assíncrona do CPF é realizada por meio do Kafka, onde a aplicação envia mensagem de solicitação de validação e atualiza os dados dos registros quando recebe o retorno.
 
 O modelo C4 abaixo ilustra o contexto geral do microserviço:<br>
-![altText](docs/diagrams/c4.png "C4 Model - Context") 
+![altText](docs/diagrams/C4.png "C4 Model - Context") 
 
 
 # Requisitos
